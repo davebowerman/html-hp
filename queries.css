@@ -1,0 +1,207 @@
+
+@media only screen and (min-width: 992px ) {
+
+     .responsive-menu {
+          display: none;
+     }
+
+
+     .book-center img {
+          width: 50%;
+     }
+     .hero {
+
+     height: 700px;
+     }
+     .hero h1 {
+          font-size: 4em;
+          padding-top: 120px;
+     }
+
+div.first-benefit.benefits {
+    float: left;
+    width: 30%;
+    margin: 0;
+}
+div.second-benefit.benefits {
+    float: left;
+    width: 30%;
+    margin: 0;
+    margin-left: 45px;
+
+}
+div.third-benefit.benefits {
+     float: right;
+    width: 30%;
+    margin: 0;
+}
+
+div#bookribbon {
+    clear: both;
+}
+.benefits-section:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+div.benefits-section.section.row {
+     padding: 60px 100px;
+     padding-top: 60px;
+     padding-bottom: 40px;
+
+}
+div.first-benefit.benefits {
+    float: left;
+    width: 30%;
+    margin: 0;
+}
+div.second-benefit.benefits {
+    float: left;
+    width: 30%;
+    margin: 0;
+    margin-left: 45px;
+
+}
+div.third-benefit.benefits {
+     float: right;
+    width: 30%;
+    margin: 0;
+}
+
+div#bookribbon {
+    clear: both;
+}
+/*
+.book-center img {
+     float: left;
+     width: 28%;
+     margin-top: 30px;
+}
+
+.book p {
+     float: right;
+     width: 65%;
+     margin-top: -100px;
+}
+.book:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+img.amazon {
+     float: right;
+
+}
+*/
+.top-row {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+         -ms-flex-direction: row;
+             flex-direction: row;
+     width: 100%;
+}
+.book-center {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+             flex-direction: column;
+     width: 40%;
+}
+.book-center img {
+     width: 75%;
+}
+.description {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+             flex-direction: column;
+     width: 50%;
+}
+img.amazon {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     width: 200px;
+}
+
+
+
+.reviews h3 {
+     display: none;
+}
+
+.reviews {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+         -ms-flex-direction: row;
+             flex-direction: row;
+     clear: both;
+     -webkit-box-pack: justify;
+         -ms-flex-pack: justify;
+             justify-content: space-between;
+}
+
+.reviews p {
+     margin: 20px 0;
+     width: 30%;
+}
+
+.form-width {
+     width: 50%;
+}
+.test {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+         -ms-flex-direction: row;
+             flex-direction: row;
+     -webkit-box-pack: justify;
+         -ms-flex-pack: justify;
+             justify-content: space-between;
+}
+.test.row p {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+             flex-direction: column;
+     width: 30%;
+
+
+
+}
+
+}
+@media only screen and (min-width: 1350px ) {
+
+
+     body {
+
+          font-size: 1.5em;
+
+     }
+
+}
